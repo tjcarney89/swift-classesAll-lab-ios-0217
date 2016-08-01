@@ -13,6 +13,8 @@
 		5BBC00801D4FD23F000E0B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC007F1D4FD23F000E0B72 /* Assets.xcassets */; };
 		5BBC00831D4FD23F000E0B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC00811D4FD23F000E0B72 /* LaunchScreen.storyboard */; };
 		5BBC008E1D4FD23F000E0B72 /* CatchEmAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC008D1D4FD23F000E0B72 /* CatchEmAllTests.swift */; };
+		755B0C35D6EF780C618AA4A1 /* Pods_CatchEmAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810438477E5C23DE54C0D86C /* Pods_CatchEmAll.framework */; };
+		B345907121F6B4FB06BA5D50 /* Pods_CatchEmAllTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F786D97503AA27F3F6C646 /* Pods_CatchEmAllTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019937399385C7151E7D7ADD /* Pods-CatchEmAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAll/Pods-CatchEmAll.debug.xcconfig"; sourceTree = "<group>"; };
+		0FF1AFA9416FE5E4448D70A7 /* Pods-CatchEmAllTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAllTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAllTests/Pods-CatchEmAllTests.release.xcconfig"; sourceTree = "<group>"; };
+		35F786D97503AA27F3F6C646 /* Pods_CatchEmAllTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchEmAllTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBC00751D4FD23F000E0B72 /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBC00781D4FD23F000E0B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BBC007A1D4FD23F000E0B72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		5BBC00891D4FD23F000E0B72 /* CatchEmAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchEmAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBC008D1D4FD23F000E0B72 /* CatchEmAllTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllTests.swift; sourceTree = "<group>"; };
 		5BBC008F1D4FD23F000E0B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810438477E5C23DE54C0D86C /* Pods_CatchEmAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchEmAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0565E18F950C140AFAF1431 /* Pods-CatchEmAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAll/Pods-CatchEmAll.release.xcconfig"; sourceTree = "<group>"; };
+		E8F70039CD56BFB4BED2CB56 /* Pods-CatchEmAllTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAllTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAllTests/Pods-CatchEmAllTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755B0C35D6EF780C618AA4A1 /* Pods_CatchEmAll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B345907121F6B4FB06BA5D50 /* Pods_CatchEmAllTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				5BBC00771D4FD23F000E0B72 /* CatchEmAll */,
 				5BBC008C1D4FD23F000E0B72 /* CatchEmAllTests */,
 				5BBC00761D4FD23F000E0B72 /* Products */,
+				8008018D78E123A1217CAE2A /* Pods */,
+				E71C430978BE981C6EC707CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = CatchEmAllTests;
 			sourceTree = "<group>";
 		};
+		8008018D78E123A1217CAE2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				019937399385C7151E7D7ADD /* Pods-CatchEmAll.debug.xcconfig */,
+				A0565E18F950C140AFAF1431 /* Pods-CatchEmAll.release.xcconfig */,
+				E8F70039CD56BFB4BED2CB56 /* Pods-CatchEmAllTests.debug.xcconfig */,
+				0FF1AFA9416FE5E4448D70A7 /* Pods-CatchEmAllTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E71C430978BE981C6EC707CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				810438477E5C23DE54C0D86C /* Pods_CatchEmAll.framework */,
+				35F786D97503AA27F3F6C646 /* Pods_CatchEmAllTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBC00921D4FD23F000E0B72 /* Build configuration list for PBXNativeTarget "CatchEmAll" */;
 			buildPhases = (
+				00110544D172842905372703 /* [CP] Check Pods Manifest.lock */,
 				5BBC00711D4FD23F000E0B72 /* Sources */,
 				5BBC00721D4FD23F000E0B72 /* Frameworks */,
 				5BBC00731D4FD23F000E0B72 /* Resources */,
+				52F00AB29D289B20FA9BA273 /* [CP] Embed Pods Frameworks */,
+				4FE2CA275717B4F9A058B54C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBC00951D4FD23F000E0B72 /* Build configuration list for PBXNativeTarget "CatchEmAllTests" */;
 			buildPhases = (
+				053E3C89E64F10E5A3B8952B /* [CP] Check Pods Manifest.lock */,
 				5BBC00851D4FD23F000E0B72 /* Sources */,
 				5BBC00861D4FD23F000E0B72 /* Frameworks */,
 				5BBC00871D4FD23F000E0B72 /* Resources */,
+				B5200390F201AE6C070ED2CD /* [CP] Embed Pods Frameworks */,
+				69CDC40C970EFEE380BFEC19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +229,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00110544D172842905372703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		053E3C89E64F10E5A3B8952B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE2CA275717B4F9A058B54C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatchEmAll/Pods-CatchEmAll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F00AB29D289B20FA9BA273 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatchEmAll/Pods-CatchEmAll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69CDC40C970EFEE380BFEC19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatchEmAllTests/Pods-CatchEmAllTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5200390F201AE6C070ED2CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatchEmAllTests/Pods-CatchEmAllTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BBC00711D4FD23F000E0B72 /* Sources */ = {
@@ -325,6 +456,7 @@
 		};
 		5BBC00931D4FD23F000E0B72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019937399385C7151E7D7ADD /* Pods-CatchEmAll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatchEmAll/Info.plist;
@@ -336,6 +468,7 @@
 		};
 		5BBC00941D4FD23F000E0B72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0565E18F950C140AFAF1431 /* Pods-CatchEmAll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatchEmAll/Info.plist;
@@ -347,6 +480,7 @@
 		};
 		5BBC00961D4FD23F000E0B72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F70039CD56BFB4BED2CB56 /* Pods-CatchEmAllTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CatchEmAllTests/Info.plist;
@@ -359,6 +493,7 @@
 		};
 		5BBC00971D4FD23F000E0B72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF1AFA9416FE5E4448D70A7 /* Pods-CatchEmAllTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CatchEmAllTests/Info.plist;
@@ -388,6 +523,7 @@
 				5BBC00941D4FD23F000E0B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BBC00951D4FD23F000E0B72 /* Build configuration list for PBXNativeTarget "CatchEmAllTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +532,7 @@
 				5BBC00971D4FD23F000E0B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
