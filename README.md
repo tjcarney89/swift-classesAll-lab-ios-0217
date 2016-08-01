@@ -1,20 +1,19 @@
-# Classesall
+# All The Things
 
-## Objectives
+![](http://i.imgur.com/BcUkNhq.jpg)  
 
-1. Objective 1
-2. Objective 2.
+> Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. -[Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
+ 
 
-## Instructions
+## Learning Objectives
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
+* 
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
 
-### Part 1: Do Some Stuff
+## Outline / Notes
 
-## Resources
+We can use this [lab](https://github.com/learn-co-curriculum/swift-vehicle) for inspiration. We can trim it down a bit. We can even *NOT* use it if you think there's a better route we can take. Or even a simpler route.
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+I've included the .xcworkspace file with all the test stuff.
 
 <a href='https://learn.co/lessons/ClassesAll' data-visibility='hidden'>View this lesson on Learn.co</a>
