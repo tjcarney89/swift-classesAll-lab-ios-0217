@@ -18,6 +18,8 @@
 		B79C20D51D69668F00F9512A /* CarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D41D69668F00F9512A /* CarSpec.swift */; };
 		B79C20D71D6967E800F9512A /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D61D6967E800F9512A /* RaceCar.swift */; };
 		B79C20D91D6968A700F9512A /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D81D6968A700F9512A /* RaceCar.swift */; };
+		B79C20DB1D696CE900F9512A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20DA1D696CE900F9512A /* Plane.swift */; };
+		B79C20DD1D696DDC00F9512A /* PlaneSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20DC1D696DDC00F9512A /* PlaneSpec.swift */; };
 		B7A7166F1D695F45004D395D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7166E1D695F45004D395D /* Vehicle.swift */; };
 		B7A716711D695F59004D395D /* VehicleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A716701D695F59004D395D /* VehicleSpec.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +53,8 @@
 		B79C20D41D69668F00F9512A /* CarSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSpec.swift; sourceTree = "<group>"; };
 		B79C20D61D6967E800F9512A /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
 		B79C20D81D6968A700F9512A /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
+		B79C20DA1D696CE900F9512A /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		B79C20DC1D696DDC00F9512A /* PlaneSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneSpec.swift; sourceTree = "<group>"; };
 		B7A7166E1D695F45004D395D /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		B7A716701D695F59004D395D /* VehicleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleSpec.swift; sourceTree = "<group>"; };
 		E8F70039CD56BFB4BED2CB56 /* Pods-CatchEmAllTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAllTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAllTests/Pods-CatchEmAllTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				B79C20D21D6965E500F9512A /* Car.swift */,
+				B79C20DA1D696CE900F9512A /* Plane.swift */,
 				B79C20D61D6967E800F9512A /* RaceCar.swift */,
 				B7A7166E1D695F45004D395D /* Vehicle.swift */,
 				B7A7166C1D695EDD004D395D /* Supporting Files */,
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				B79C20D41D69668F00F9512A /* CarSpec.swift */,
+				B79C20DC1D696DDC00F9512A /* PlaneSpec.swift */,
 				B79C20D81D6968A700F9512A /* RaceCar.swift */,
 				B7A716701D695F59004D395D /* VehicleSpec.swift */,
 				B7A7166D1D695EF1004D395D /* Supporting Files */,
@@ -363,6 +369,7 @@
 				5BBC007B1D4FD23F000E0B72 /* ViewController.swift in Sources */,
 				B79C20D71D6967E800F9512A /* RaceCar.swift in Sources */,
 				B79C20D31D6965E500F9512A /* Car.swift in Sources */,
+				B79C20DB1D696CE900F9512A /* Plane.swift in Sources */,
 				5BBC00791D4FD23F000E0B72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A716711D695F59004D395D /* VehicleSpec.swift in Sources */,
+				B79C20DD1D696DDC00F9512A /* PlaneSpec.swift in Sources */,
 				B79C20D91D6968A700F9512A /* RaceCar.swift in Sources */,
 				B79C20D51D69668F00F9512A /* CarSpec.swift in Sources */,
 			);
