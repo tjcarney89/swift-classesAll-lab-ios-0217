@@ -12,7 +12,6 @@
 		5BBC007E1D4FD23F000E0B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC007C1D4FD23F000E0B72 /* Main.storyboard */; };
 		5BBC00801D4FD23F000E0B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC007F1D4FD23F000E0B72 /* Assets.xcassets */; };
 		5BBC00831D4FD23F000E0B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC00811D4FD23F000E0B72 /* LaunchScreen.storyboard */; };
-		5BBC008E1D4FD23F000E0B72 /* CatchEmAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC008D1D4FD23F000E0B72 /* CatchEmAllTests.swift */; };
 		755B0C35D6EF780C618AA4A1 /* Pods_CatchEmAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810438477E5C23DE54C0D86C /* Pods_CatchEmAll.framework */; };
 		B345907121F6B4FB06BA5D50 /* Pods_CatchEmAllTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F786D97503AA27F3F6C646 /* Pods_CatchEmAllTests.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		5BBC00821D4FD23F000E0B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BBC00841D4FD23F000E0B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BBC00891D4FD23F000E0B72 /* CatchEmAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchEmAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BBC008D1D4FD23F000E0B72 /* CatchEmAllTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllTests.swift; sourceTree = "<group>"; };
 		5BBC008F1D4FD23F000E0B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		810438477E5C23DE54C0D86C /* Pods_CatchEmAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchEmAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0565E18F950C140AFAF1431 /* Pods-CatchEmAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAll/Pods-CatchEmAll.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,12 +87,7 @@
 		5BBC00771D4FD23F000E0B72 /* CatchEmAll */ = {
 			isa = PBXGroup;
 			children = (
-				5BBC00781D4FD23F000E0B72 /* AppDelegate.swift */,
-				5BBC007A1D4FD23F000E0B72 /* ViewController.swift */,
-				5BBC007C1D4FD23F000E0B72 /* Main.storyboard */,
-				5BBC007F1D4FD23F000E0B72 /* Assets.xcassets */,
-				5BBC00811D4FD23F000E0B72 /* LaunchScreen.storyboard */,
-				5BBC00841D4FD23F000E0B72 /* Info.plist */,
+				B7A7166C1D695EDD004D395D /* Supporting Files */,
 			);
 			path = CatchEmAll;
 			sourceTree = "<group>";
@@ -102,8 +95,7 @@
 		5BBC008C1D4FD23F000E0B72 /* CatchEmAllTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BBC008D1D4FD23F000E0B72 /* CatchEmAllTests.swift */,
-				5BBC008F1D4FD23F000E0B72 /* Info.plist */,
+				B7A7166D1D695EF1004D395D /* Supporting Files */,
 			);
 			path = CatchEmAllTests;
 			sourceTree = "<group>";
@@ -117,6 +109,27 @@
 				0FF1AFA9416FE5E4448D70A7 /* Pods-CatchEmAllTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7A7166C1D695EDD004D395D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC00781D4FD23F000E0B72 /* AppDelegate.swift */,
+				5BBC007A1D4FD23F000E0B72 /* ViewController.swift */,
+				5BBC007C1D4FD23F000E0B72 /* Main.storyboard */,
+				5BBC007F1D4FD23F000E0B72 /* Assets.xcassets */,
+				5BBC00811D4FD23F000E0B72 /* LaunchScreen.storyboard */,
+				5BBC00841D4FD23F000E0B72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7A7166D1D695EF1004D395D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC008F1D4FD23F000E0B72 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E71C430978BE981C6EC707CD /* Frameworks */ = {
@@ -337,7 +350,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBC008E1D4FD23F000E0B72 /* CatchEmAllTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
