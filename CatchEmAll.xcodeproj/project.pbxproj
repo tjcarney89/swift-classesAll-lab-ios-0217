@@ -16,6 +16,8 @@
 		B345907121F6B4FB06BA5D50 /* Pods_CatchEmAllTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F786D97503AA27F3F6C646 /* Pods_CatchEmAllTests.framework */; };
 		B79C20D31D6965E500F9512A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D21D6965E500F9512A /* Car.swift */; };
 		B79C20D51D69668F00F9512A /* CarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D41D69668F00F9512A /* CarSpec.swift */; };
+		B79C20D71D6967E800F9512A /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D61D6967E800F9512A /* RaceCar.swift */; };
+		B79C20D91D6968A700F9512A /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D81D6968A700F9512A /* RaceCar.swift */; };
 		B7A7166F1D695F45004D395D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7166E1D695F45004D395D /* Vehicle.swift */; };
 		B7A716711D695F59004D395D /* VehicleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A716701D695F59004D395D /* VehicleSpec.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,8 @@
 		A0565E18F950C140AFAF1431 /* Pods-CatchEmAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAll/Pods-CatchEmAll.release.xcconfig"; sourceTree = "<group>"; };
 		B79C20D21D6965E500F9512A /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		B79C20D41D69668F00F9512A /* CarSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSpec.swift; sourceTree = "<group>"; };
+		B79C20D61D6967E800F9512A /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
+		B79C20D81D6968A700F9512A /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
 		B7A7166E1D695F45004D395D /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		B7A716701D695F59004D395D /* VehicleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleSpec.swift; sourceTree = "<group>"; };
 		E8F70039CD56BFB4BED2CB56 /* Pods-CatchEmAllTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAllTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAllTests/Pods-CatchEmAllTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B79C20D21D6965E500F9512A /* Car.swift */,
+				B79C20D61D6967E800F9512A /* RaceCar.swift */,
 				B7A7166E1D695F45004D395D /* Vehicle.swift */,
 				B7A7166C1D695EDD004D395D /* Supporting Files */,
 			);
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				B79C20D41D69668F00F9512A /* CarSpec.swift */,
+				B79C20D81D6968A700F9512A /* RaceCar.swift */,
 				B7A716701D695F59004D395D /* VehicleSpec.swift */,
 				B7A7166D1D695EF1004D395D /* Supporting Files */,
 			);
@@ -355,6 +361,7 @@
 			files = (
 				B7A7166F1D695F45004D395D /* Vehicle.swift in Sources */,
 				5BBC007B1D4FD23F000E0B72 /* ViewController.swift in Sources */,
+				B79C20D71D6967E800F9512A /* RaceCar.swift in Sources */,
 				B79C20D31D6965E500F9512A /* Car.swift in Sources */,
 				5BBC00791D4FD23F000E0B72 /* AppDelegate.swift in Sources */,
 			);
@@ -365,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A716711D695F59004D395D /* VehicleSpec.swift in Sources */,
+				B79C20D91D6968A700F9512A /* RaceCar.swift in Sources */,
 				B79C20D51D69668F00F9512A /* CarSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
