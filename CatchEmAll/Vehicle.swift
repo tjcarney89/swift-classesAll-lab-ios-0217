@@ -14,7 +14,7 @@ class Vehicle {
     let maxSpeed: Double
     var speed: Double {
         didSet {
-            if speed > maxSpeed {
+            if speed > megaSpeed {
                 speed = maxSpeed
             }
 
@@ -37,6 +37,10 @@ class Vehicle {
 
     var speedInterval: Double {
         return maxSpeed * 0.1
+    }
+
+    var megaSpeed: Double {
+        return maxSpeed
     }
 
     init(name: String, weight: Double, maxSpeed: Double) {
