@@ -7,13 +7,7 @@
 
 ## Learning Objectives
 
-* 
-
-
-## Outline / Notes
-
-We can use this [lab](https://github.com/learn-co-curriculum/swift-vehicle) for inspiration. We can trim it down a bit. We can even *NOT* use it if you think there's a better route we can take. Or even a simpler route.
-
-I've included the .xcworkspace file with all the test stuff.
+* Learn about inheritance
+* Finish the lab
 
 <a href='https://learn.co/lessons/ClassesAll' data-visibility='hidden'>View this lesson on Learn.co</a>
