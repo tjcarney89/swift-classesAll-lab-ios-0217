@@ -8,12 +8,16 @@
 
 import Foundation
 
+enum Transmission {
+    case Automatic, Manual
+}
+
 class Car: Vehicle {
-    let transmission: String
+    let transmission: Transmission
     let cylinders: Int
     let milesPerGallon: Double
 
-    init(name: String, weight: Double, maxSpeed: Double, transmission: String, cylinders: Int, milesPerGallon: Double) {
+    init(name: String, weight: Double, maxSpeed: Double, transmission: Transmission, cylinders: Int, milesPerGallon: Double) {
         self.transmission = transmission
         self.cylinders = cylinders
         self.milesPerGallon = milesPerGallon
