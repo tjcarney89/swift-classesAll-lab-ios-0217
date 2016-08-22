@@ -69,11 +69,11 @@ class JetSpec: QuickSpec {
             }
 
             describe("climb") {
-                it("should increase the plane's altitude but decrease the speed by 1/10") {
+                it("should increase the plane's altitude but decrease the speed by 1/5") {
                     plane.speed = 320.0
                     plane.altitude = 20000.0
                     plane.climb()
-                    expect(plane.altitude).to(beCloseTo(20000.0 + plane.maxAltitude / 10.0))
+                    expect(plane.altitude).to(beCloseTo(20000.0 + plane.maxAltitude / 5.0))
                     expect(plane.speed).to(beCloseTo(320.0 - plane.maxSpeed * 0.1))
                     expect(plane.inFlight).to(beTrue())
                 }
@@ -100,7 +100,7 @@ class JetSpec: QuickSpec {
                     plane.speed = 320.0
                     plane.altitude = 30000.0
                     plane.dive()
-                    expect(plane.altitude).to(beCloseTo(30000.0 - plane.maxAltitude / 10.0))
+                    expect(plane.altitude).to(beCloseTo(30000.0 - plane.maxAltitude / 5.0))
                     expect(plane.speed).to(beCloseTo(320.0 + plane.maxSpeed * 0.1))
                     expect(plane.inFlight).to(beTrue())
                 }

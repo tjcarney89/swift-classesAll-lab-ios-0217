@@ -25,6 +25,10 @@ class Plane: Vehicle {
         return altitude > 0.0 && speed > 0.0
     }
 
+    var altitudeInterval: Double {
+        return maxAltitude / 10.0
+    }
+
     init(name: String, weight: Double, maxSpeed: Double, maxAltitude: Double) {
         self.maxAltitude = maxAltitude
         self.altitude = 0.0
@@ -44,13 +48,13 @@ class Plane: Vehicle {
 
     func climb() {
         guard inFlight else { return }
-        altitude += (maxAltitude / 10.0)
+        altitude += altitudeInterval
         super.decelerate()
     }
 
     func dive() {
         guard inFlight else { return }
-        altitude -= (maxAltitude / 10.0)
+        altitude -= altitudeInterval
         super.accelerate()
     }
 

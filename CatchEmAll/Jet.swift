@@ -9,6 +9,10 @@
 import Foundation
 
 class Jet: Plane {
+    override var altitudeInterval: Double {
+        return maxAltitude / 5.0
+    }
+
     override var megaSpeed: Double {
         return maxSpeed * 2.0
     }
