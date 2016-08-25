@@ -12,9 +12,18 @@
 		5BBC007E1D4FD23F000E0B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC007C1D4FD23F000E0B72 /* Main.storyboard */; };
 		5BBC00801D4FD23F000E0B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC007F1D4FD23F000E0B72 /* Assets.xcassets */; };
 		5BBC00831D4FD23F000E0B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC00811D4FD23F000E0B72 /* LaunchScreen.storyboard */; };
-		5BBC008E1D4FD23F000E0B72 /* CatchEmAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC008D1D4FD23F000E0B72 /* CatchEmAllTests.swift */; };
 		755B0C35D6EF780C618AA4A1 /* Pods_CatchEmAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810438477E5C23DE54C0D86C /* Pods_CatchEmAll.framework */; };
 		B345907121F6B4FB06BA5D50 /* Pods_CatchEmAllTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F786D97503AA27F3F6C646 /* Pods_CatchEmAllTests.framework */; };
+		B79C20D31D6965E500F9512A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D21D6965E500F9512A /* Car.swift */; };
+		B79C20D51D69668F00F9512A /* CarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D41D69668F00F9512A /* CarSpec.swift */; };
+		B79C20D71D6967E800F9512A /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D61D6967E800F9512A /* RaceCar.swift */; };
+		B79C20D91D6968A700F9512A /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20D81D6968A700F9512A /* RaceCar.swift */; };
+		B79C20DB1D696CE900F9512A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20DA1D696CE900F9512A /* Plane.swift */; };
+		B79C20DD1D696DDC00F9512A /* PlaneSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20DC1D696DDC00F9512A /* PlaneSpec.swift */; };
+		B79C20DF1D69758700F9512A /* Jet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20DE1D69758700F9512A /* Jet.swift */; };
+		B79C20E11D6975C100F9512A /* JetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C20E01D6975C100F9512A /* JetSpec.swift */; };
+		B7A7166F1D695F45004D395D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7166E1D695F45004D395D /* Vehicle.swift */; };
+		B7A716711D695F59004D395D /* VehicleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A716701D695F59004D395D /* VehicleSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +48,19 @@
 		5BBC00821D4FD23F000E0B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BBC00841D4FD23F000E0B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BBC00891D4FD23F000E0B72 /* CatchEmAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchEmAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BBC008D1D4FD23F000E0B72 /* CatchEmAllTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllTests.swift; sourceTree = "<group>"; };
 		5BBC008F1D4FD23F000E0B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		810438477E5C23DE54C0D86C /* Pods_CatchEmAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchEmAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0565E18F950C140AFAF1431 /* Pods-CatchEmAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAll/Pods-CatchEmAll.release.xcconfig"; sourceTree = "<group>"; };
+		B79C20D21D6965E500F9512A /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		B79C20D41D69668F00F9512A /* CarSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSpec.swift; sourceTree = "<group>"; };
+		B79C20D61D6967E800F9512A /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
+		B79C20D81D6968A700F9512A /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
+		B79C20DA1D696CE900F9512A /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		B79C20DC1D696DDC00F9512A /* PlaneSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneSpec.swift; sourceTree = "<group>"; };
+		B79C20DE1D69758700F9512A /* Jet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
+		B79C20E01D6975C100F9512A /* JetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JetSpec.swift; sourceTree = "<group>"; };
+		B7A7166E1D695F45004D395D /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		B7A716701D695F59004D395D /* VehicleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleSpec.swift; sourceTree = "<group>"; };
 		E8F70039CD56BFB4BED2CB56 /* Pods-CatchEmAllTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchEmAllTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatchEmAllTests/Pods-CatchEmAllTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,12 +107,12 @@
 		5BBC00771D4FD23F000E0B72 /* CatchEmAll */ = {
 			isa = PBXGroup;
 			children = (
-				5BBC00781D4FD23F000E0B72 /* AppDelegate.swift */,
-				5BBC007A1D4FD23F000E0B72 /* ViewController.swift */,
-				5BBC007C1D4FD23F000E0B72 /* Main.storyboard */,
-				5BBC007F1D4FD23F000E0B72 /* Assets.xcassets */,
-				5BBC00811D4FD23F000E0B72 /* LaunchScreen.storyboard */,
-				5BBC00841D4FD23F000E0B72 /* Info.plist */,
+				B79C20D21D6965E500F9512A /* Car.swift */,
+				B79C20DE1D69758700F9512A /* Jet.swift */,
+				B79C20DA1D696CE900F9512A /* Plane.swift */,
+				B79C20D61D6967E800F9512A /* RaceCar.swift */,
+				B7A7166E1D695F45004D395D /* Vehicle.swift */,
+				B7A7166C1D695EDD004D395D /* Supporting Files */,
 			);
 			path = CatchEmAll;
 			sourceTree = "<group>";
@@ -102,8 +120,12 @@
 		5BBC008C1D4FD23F000E0B72 /* CatchEmAllTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BBC008D1D4FD23F000E0B72 /* CatchEmAllTests.swift */,
-				5BBC008F1D4FD23F000E0B72 /* Info.plist */,
+				B79C20D41D69668F00F9512A /* CarSpec.swift */,
+				B79C20E01D6975C100F9512A /* JetSpec.swift */,
+				B79C20DC1D696DDC00F9512A /* PlaneSpec.swift */,
+				B79C20D81D6968A700F9512A /* RaceCar.swift */,
+				B7A716701D695F59004D395D /* VehicleSpec.swift */,
+				B7A7166D1D695EF1004D395D /* Supporting Files */,
 			);
 			path = CatchEmAllTests;
 			sourceTree = "<group>";
@@ -117,6 +139,27 @@
 				0FF1AFA9416FE5E4448D70A7 /* Pods-CatchEmAllTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7A7166C1D695EDD004D395D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC00781D4FD23F000E0B72 /* AppDelegate.swift */,
+				5BBC007A1D4FD23F000E0B72 /* ViewController.swift */,
+				5BBC007C1D4FD23F000E0B72 /* Main.storyboard */,
+				5BBC007F1D4FD23F000E0B72 /* Assets.xcassets */,
+				5BBC00811D4FD23F000E0B72 /* LaunchScreen.storyboard */,
+				5BBC00841D4FD23F000E0B72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7A7166D1D695EF1004D395D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC008F1D4FD23F000E0B72 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E71C430978BE981C6EC707CD /* Frameworks */ = {
@@ -328,8 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A7166F1D695F45004D395D /* Vehicle.swift in Sources */,
 				5BBC007B1D4FD23F000E0B72 /* ViewController.swift in Sources */,
+				B79C20D71D6967E800F9512A /* RaceCar.swift in Sources */,
+				B79C20D31D6965E500F9512A /* Car.swift in Sources */,
+				B79C20DB1D696CE900F9512A /* Plane.swift in Sources */,
 				5BBC00791D4FD23F000E0B72 /* AppDelegate.swift in Sources */,
+				B79C20DF1D69758700F9512A /* Jet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +385,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBC008E1D4FD23F000E0B72 /* CatchEmAllTests.swift in Sources */,
+				B79C20E11D6975C100F9512A /* JetSpec.swift in Sources */,
+				B7A716711D695F59004D395D /* VehicleSpec.swift in Sources */,
+				B79C20DD1D696DDC00F9512A /* PlaneSpec.swift in Sources */,
+				B79C20D91D6968A700F9512A /* RaceCar.swift in Sources */,
+				B79C20D51D69668F00F9512A /* CarSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,10 +535,12 @@
 			baseConfigurationReference = E8F70039CD56BFB4BED2CB56 /* Pods-CatchEmAllTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CatchEmAllTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.CatchEmAllTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchEmAll.app/CatchEmAll";
 			};
 			name = Debug;
@@ -496,6 +550,7 @@
 			baseConfigurationReference = 0FF1AFA9416FE5E4448D70A7 /* Pods-CatchEmAllTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CatchEmAllTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.CatchEmAllTests;
