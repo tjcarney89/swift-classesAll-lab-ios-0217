@@ -1,14 +1,12 @@
-# All The Things
+# Classes and Inheritance Lab 
 
 ![](http://i.imgur.com/BcUkNhq.jpg)  
 
 > Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. -[Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
  
+## Overview
 
-## Learning Objectives
-
-* Learn about inheritance
-* Finish the lab
+In this lab, you'll constructsome classes to represent different kinds of vehicles. We'll also cover the topic of inheritance with classes. 
 
 ## Classes
 
@@ -84,7 +82,7 @@ class Cat: Animal {
 
 Now that you know about inheritance, let's get on with the lab!
 
-## Directions
+## Instructions 
 
 In this lab, you'll create several classes, including some that inherit from others. This lab contains unit tests. When you first open the Xcode project, the tests will fail. You'll know you've successfully completed the lab when all the tests pass!
 
