@@ -105,7 +105,7 @@ You should also add these methods to `Vehicle`. These methods take no parameters
 1. `goFast()`, which sets the vehicle's `speed` to its `maxSpeed`.
 2. `halt()`, which sets the vehicle's `speed` to 0.
 3. `accelerate()`, which increases the vehicle's `speed` by ⅒ its `maxSpeed`. It cannot increase the vehicle's `speed` beyond its `maxSpeed`.
-4. `decelerate(0`, which decreases the vehicle's `speed` by ⅒ its `maxSpeed`. It cannot decrease the vehicle's `speed` below 0.
+4. `decelerate()`, which decreases the vehicle's `speed` by ⅒ its `maxSpeed`. It cannot decrease the vehicle's `speed` below 0.
 5. `turnRight()`, which increases the vehicle's `heading` by 90 and cuts its `speed` in half. If the vehicle's `heading` increases beyond 360, it wraps around again (that is, if the heading would be increased to 375, it wraps around to 15 again). The vehicle cannot turn if it is stationary (has a `speed` of 0).
 6. `turnLeft()` which decreases the vehicle's `heading` by 90 and cuts its speed in half. If the vehicle's `heading` decreases below 0, it wraps around again (that is, if it would decrease to -15, it would instead wrap around to 345). The vehicle cannot turn if it is stationery (has a `speed` of 0).
 
@@ -227,3 +227,5 @@ The `Jet` class should also add one new method, which takes no parameters and re
 That's it! If the tests pass, you completed the lab. If the tests don't pass, look back over these directions and try to figure out what you did wrong. Good luck!
 
 <a href='https://learn.co/lessons/ClassesAll' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-classesAll-lab'>Swift Classes All Lab</a> on Learn.co and start learning to code for free.</p>
