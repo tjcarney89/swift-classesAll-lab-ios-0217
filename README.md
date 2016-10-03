@@ -151,7 +151,7 @@ Finally, `Car` should add two new methods, which again take no parameters and ha
 
 ### `RaceCar`
 
-Next, implement a `RaceCar` class in `RaceCar.swift`. This class should inherit from `Vehicle` and add two new properties:
+Next, implement a `RaceCar` class in `RaceCar.swift`. This class should inherit from `Car` and add two new properties:
 
 1. A constant `String` named `driver`
 2. A variable `[String]` named `sponsors`
@@ -227,3 +227,5 @@ The `Jet` class should also add one new method, which takes no parameters and re
 That's it! If the tests pass, you completed the lab. If the tests don't pass, look back over these directions and try to figure out what you did wrong. Good luck!
 
 <a href='https://learn.co/lessons/ClassesAll' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-classesAll-lab'>Swift Classes All Lab</a> on Learn.co and start learning to code for free.</p>
