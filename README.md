@@ -187,7 +187,7 @@ Next, create a `Plane` class in `Plane.swift`. This class should inherit from `V
 
 1. A constant `Double` named `maxAltitude`
 2. A variable `Double` named `altitude`
-3. A _calculated_ `Bool` named `inFlight`. This property should return `true` if both the `altitude` and `speed` are 0.
+3. A _calculated_ `Bool` named `inFlight`. This property should return `true` if both the `altitude` and `speed` are greater than 0.
 
 `Plane` should have an initializer that takes four parameters:
 
@@ -227,3 +227,5 @@ The `Jet` class should also add one new method, which takes no parameters and re
 That's it! If the tests pass, you completed the lab. If the tests don't pass, look back over these directions and try to figure out what you did wrong. Good luck!
 
 <a href='https://learn.co/lessons/ClassesAll' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-classesAll-lab'>Swift Classes All Lab</a> on Learn.co and start learning to code for free.</p>
