@@ -6,7 +6,7 @@
  
 ## Overview
 
-In this lab, you'll constructsome classes to represent different kinds of vehicles. We'll also cover the topic of inheritance with classes. 
+In this lab, you'll construct some classes to represent different kinds of vehicles. We'll also cover the topic of inheritance with classes. 
 
 ## Classes
 
@@ -105,7 +105,7 @@ You should also add these methods to `Vehicle`. These methods take no parameters
 1. `goFast()`, which sets the vehicle's `speed` to its `maxSpeed`.
 2. `halt()`, which sets the vehicle's `speed` to 0.
 3. `accelerate()`, which increases the vehicle's `speed` by ⅒ its `maxSpeed`. It cannot increase the vehicle's `speed` beyond its `maxSpeed`.
-4. `decelerate(0`, which decreases the vehicle's `speed` by ⅒ its `maxSpeed`. It cannot decrease the vehicle's `speed` below 0.
+4. `decelerate()`, which decreases the vehicle's `speed` by ⅒ its `maxSpeed`. It cannot decrease the vehicle's `speed` below 0.
 5. `turnRight()`, which increases the vehicle's `heading` by 90 and cuts its `speed` in half. If the vehicle's `heading` increases beyond 360, it wraps around again (that is, if the heading would be increased to 375, it wraps around to 15 again). The vehicle cannot turn if it is stationary (has a `speed` of 0).
 6. `turnLeft()` which decreases the vehicle's `heading` by 90 and cuts its speed in half. If the vehicle's `heading` decreases below 0, it wraps around again (that is, if it would decrease to -15, it would instead wrap around to 345). The vehicle cannot turn if it is stationery (has a `speed` of 0).
 
@@ -151,7 +151,7 @@ Finally, `Car` should add two new methods, which again take no parameters and ha
 
 ### `RaceCar`
 
-Next, implement a `RaceCar` class in `RaceCar.swift`. This class should inherit from `Vehicle` and add two new properties:
+Next, implement a `RaceCar` class in `RaceCar.swift`. This class should inherit from `Car` and add two new properties:
 
 1. A constant `String` named `driver`
 2. A variable `[String]` named `sponsors`
